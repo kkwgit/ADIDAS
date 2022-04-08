@@ -1,0 +1,45 @@
+.btn-outline-success {
+  color:black;
+  border-color:black;
+}
+.btn-outline-success:hover{
+  background-color:black;
+}
+
+footer{
+  border-top: 5px solid black;
+  
+}
+.culumn{
+  display:flex;
+  flex-direction:column;
+}
+
+.footer-menu{
+  font-weight: bold;
+}
+
+.footer-menu-item{
+  text-decoration:none;
+  color:black;
+  line-height: 23px;
+    font-size: 13px;
+  }
+.footer-menu-item:hover{
+  text-decoration:underline;
+  color:black;
+}
+
+.third-line{
+  display:none;
+}
+
+@media screen and (max-width: 48rem){
+  .row{
+    padding: 0 2rem;
+  }
+
+  .third-line{
+  display:block;
+}
+}
